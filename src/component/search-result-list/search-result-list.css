@@ -1,0 +1,66 @@
+.header-card {
+  display: flex;
+}
+
+.progress {
+margin-right: 12px;
+margin-left: auto;
+}
+
+.movies-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 12px;
+  caret-color: transparent;
+}
+
+.movies-info h5 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.relase-date {
+  width: auto;
+  height: 22px;
+  left: 203px;
+  top: 45px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #827e7e;
+}
+
+.short-description {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  margin: 7px 20px 0 0;
+  width: 228px;
+  height: 63px;
+  left: 203px;
+  top: 101px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  color: #000000;
+}
+
+.movies-info .ant-rate-star {
+  
+  margin-bottom: 20px;
+}
+
+.anticon {
+ width: 15px;
+}

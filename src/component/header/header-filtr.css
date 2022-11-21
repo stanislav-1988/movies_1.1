@@ -1,0 +1,19 @@
+.header-filter {
+   margin: auto;
+   width: 180px;
+}
+
+.header {
+   width: auto;
+}
+.ant-tabs-tab-btn {
+   caret-color: transparent;
+   padding: 0 10px;
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 22px;
+   text-align: center;
+   color: rgba(0, 0, 0, 0.65);
+}
